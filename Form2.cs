@@ -16,5 +16,27 @@ namespace LABARATORNAYA
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form adminForm = new Form1();
+            adminForm.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form adminForm = new Form3();
+            adminForm.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
