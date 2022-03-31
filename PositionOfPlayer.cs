@@ -8,5 +8,14 @@ namespace LABARATORNAYA
 {
     internal class PositionOfPlayer
     {
+        int positionId;
+        int playerId;
+
+        public void setAll(int positionId, int playerId)
+
+        { 
+            this.positionId = positionId;
+            this.playerId = playerId;
+        }
     }
 }
