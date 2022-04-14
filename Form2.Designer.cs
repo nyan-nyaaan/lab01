@@ -51,9 +51,10 @@
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Location = new System.Drawing.Point(127, 97);
+            this.panel1.Location = new System.Drawing.Point(169, 119);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(592, 336);
+            this.panel1.Size = new System.Drawing.Size(789, 414);
             this.panel1.TabIndex = 0;
             // 
             // button4
@@ -63,9 +64,10 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button4.Location = new System.Drawing.Point(353, 229);
+            this.button4.Location = new System.Drawing.Point(471, 282);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(199, 68);
+            this.button4.Size = new System.Drawing.Size(265, 84);
             this.button4.TabIndex = 0;
             this.button4.Text = "Photos";
             this.button4.UseVisualStyleBackColor = false;
@@ -77,9 +79,10 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button3.Location = new System.Drawing.Point(353, 34);
+            this.button3.Location = new System.Drawing.Point(471, 42);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(199, 68);
+            this.button3.Size = new System.Drawing.Size(265, 84);
             this.button3.TabIndex = 0;
             this.button3.Text = "Players";
             this.button3.UseVisualStyleBackColor = false;
@@ -91,9 +94,10 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button5.Location = new System.Drawing.Point(28, 229);
+            this.button5.Location = new System.Drawing.Point(37, 282);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(199, 68);
+            this.button5.Size = new System.Drawing.Size(265, 84);
             this.button5.TabIndex = 0;
             this.button5.Text = "Matcups";
             this.button5.UseVisualStyleBackColor = false;
@@ -105,9 +109,10 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(28, 34);
+            this.button1.Location = new System.Drawing.Point(37, 42);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(199, 68);
+            this.button1.Size = new System.Drawing.Size(265, 84);
             this.button1.TabIndex = 0;
             this.button1.Text = "Teams";
             this.button1.UseVisualStyleBackColor = false;
@@ -120,9 +125,10 @@
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox1.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox1.Location = new System.Drawing.Point(0, 463);
+            this.textBox1.Location = new System.Drawing.Point(0, 570);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(827, 14);
+            this.textBox1.Size = new System.Drawing.Size(1103, 17);
             this.textBox1.TabIndex = 3;
             this.textBox1.Text = "The current season is 2016-2017, and the NBA already has a history of 71 years";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -136,8 +142,9 @@
             this.panel2.Controls.Add(this.button2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(827, 87);
+            this.panel2.Size = new System.Drawing.Size(1103, 107);
             this.panel2.TabIndex = 0;
             // 
             // pictureBox1
@@ -145,8 +152,9 @@
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.Image = global::LABARATORNAYA.Properties.Resources._2005u201306_nba_season_orlando_magic_the_nba_finals_logo_nba_professional_basketball_logo__1_;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(38, 84);
+            this.pictureBox1.Size = new System.Drawing.Size(51, 103);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -156,9 +164,10 @@
             // 
             this.label2.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.label2.Location = new System.Drawing.Point(327, 19);
+            this.label2.Location = new System.Drawing.Point(436, 23);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(146, 32);
+            this.label2.Size = new System.Drawing.Size(195, 39);
             this.label2.TabIndex = 2;
             this.label2.Text = "Visitor Menu";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -168,9 +177,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.DimGray;
-            this.label1.Location = new System.Drawing.Point(52, 60);
+            this.label1.Location = new System.Drawing.Point(69, 74);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(231, 24);
+            this.label1.Size = new System.Drawing.Size(293, 29);
             this.label1.TabIndex = 2;
             this.label1.Text = "NBA Management System\r\n";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -180,9 +190,10 @@
             this.button2.AutoSize = true;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(745, 34);
+            this.button2.Location = new System.Drawing.Point(993, 42);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 28);
+            this.button2.Size = new System.Drawing.Size(100, 34);
             this.button2.TabIndex = 0;
             this.button2.Text = "Back";
             this.button2.UseVisualStyleBackColor = true;
@@ -190,14 +201,15 @@
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(827, 477);
+            this.ClientSize = new System.Drawing.Size(1103, 587);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Visitor Menu";
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
